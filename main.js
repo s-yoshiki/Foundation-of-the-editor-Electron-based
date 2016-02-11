@@ -38,7 +38,7 @@ var template = [
         submenu: [
             {label: 'Open', accelerator: 'Command+O', click: function() {
                 // 「ファイルを開く」ダイアログの呼び出し
-                require('dialog').showOpenDialog({ properties: ['openDirectory']}, function (baseDir){
+                require('dialog').showOpenDialog({properties: ['openDirectory','openFile']},function (baseDir){
                     if(baseDir && baseDir[0]) {
                         openWindow(baseDir[0]);
                     }
