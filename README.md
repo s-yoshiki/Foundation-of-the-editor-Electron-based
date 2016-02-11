@@ -1,3 +1,3 @@
 
-# Foundation-of-the-editor-Electron-based
+# Foundation of the editor. Electron-based
 Electronベースのeditor
